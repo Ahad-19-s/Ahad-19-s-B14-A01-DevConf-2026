@@ -392,3 +392,63 @@ hr{
 .footer-links a:hover {
     color: #ffffff;
 }
+
+/* Al section */
+.hackathon{
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 60px;
+    text-align: center;
+    background-color: #f5f7ff;
+    border-radius: 12px;
+}
+
+.hackathon h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hackathon-desc{
+    max-width: 700px;
+    margin: 0 auto 40px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.hackathon-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.hackathon-card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.hackathon-card h3{
+    color: #2952e3;
+    margin-bottom: 15px;
+}
+
+.hackathon-card p{
+    color: #555;
+    line-height: 1.6;
+}
+
+.hackathon-btn{
+    background-color: #2952e3;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hackathon-btn:hover{
+    background-color: #1d3fcf;
+}
