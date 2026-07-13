@@ -281,6 +281,11 @@ nav {
 .price-card.featured .features li::before {
     background-color: #6d8bff;
 }
+
+hr{
+    margin-bottom: 20px;
+
+}
 .plan-btn {
     width: 100%;
     padding: 14px 0;
@@ -302,5 +307,88 @@ nav {
 .plan-btn.filled {
     border: none;
     background-color: #2f3fd6;
+    color: #ffffff;
+}
+
+/* Footer */
+
+.site-footer {
+    background-color: #a2adc9;
+    padding: 40px 20px 30px;
+}
+ 
+.site-footer .footer-top,
+.site-footer .footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+ 
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ 
+.footer-logo img {
+    width: 32px;
+    height: auto;
+}
+ 
+.footer-logo .logo-text {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+}
+ 
+.social-links {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
+ 
+.social-links img {
+    width: 20px;
+    height: 20px;
+}
+ 
+.footer-divider {
+    border: none;
+    border-top: 1px solid #d4d9e7;
+    max-width: 1200px;
+    margin: 0 auto 24px;
+}
+ 
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.footer-copy {
+    font-size: 13px;
+    color: #2d333f;
+}
+ 
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 26px;
+}
+ 
+.footer-links a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #111b2b;
+}
+ 
+.footer-links a:hover {
     color: #ffffff;
 }
