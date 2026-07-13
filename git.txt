@@ -1,0 +1,7 @@
+echo "# Ahad-19-s-B14-A01-DevConf-2026" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ahad-19-s/Ahad-19-s-B14-A01-DevConf-2026.git
+git push -u origin main
